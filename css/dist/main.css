@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Cute+Font&display=swap");
+*,
+*:after *:before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#body {
+  font-family: "Cute Font";
+  background-color: #ad0948c0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+#header {
+  display: flex;
+  position: absolute;
+  width: 98%;
+  top: 0;
+  left: 0;
+  padding: 10px 2px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header a .logo {
+  width: 90px;
+  height: 90px;
+  pointer-events: none;
+  margin-left: 10px;
+}
+
+#header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#header ul li {
+  list-style: none;
+  margin-left: 8px;
+  font-size: 30px;
+}
+
+#header ul a {
+  text-decoration: none;
+  padding: 4px 2px;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+#end {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+}
+
+#web3connect {
+  width: 90px;
+  border-radius: 15px;
+  margin-left: 3px;
+  font-size: 25px;
+}
+
+#nft-balance {
+  margin-top: 200px;
+}
+
+#container {
+  max-width: 23%;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+#card {
+  background-color: #3A6351;
+  max-width: 100%;
+  height: 500px;
+  border-radius: 10px;
+}
+
+#card:hover {
+  transform: scale(1.2);
+  opacity: 0.9;
+}
+
+#nftimg {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  margin-left: 22%;
+  margin-top: 20px;
+}
+
+#card h2 {
+  text-align: center;
+}
+
+#card h3 {
+  text-align: center;
+}
+
+#card p {
+  text-align: center;
+}
+
+#card a {
+  text-decoration: none;
+  color: #ffffff;
+  margin-left: 36%;
+}
+
+#create-div {
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+
+#meme-image {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+#meme-content {
+  max-width: 100%;
+}
+
+#meme-card {
+  background-color: #3A6351;
+  float: left;
+  max-width: 9%;
+  border-radius: 10px;
+  margin-left: 1.4%;
+  margin-bottom: 10px;
+}
+
+#meme-card:hover {
+  transform: scale(1.5);
+  opacity: 0.9;
+}
+
+#select {
+  width: 200px;
+  margin-bottom: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#selected-img {
+  height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  margin-bottom: 20px;
+}
+
+#sendbtn {
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+#meme-div {
+  margin-top: 200px;
+}
+
+.meme-make-div {
+  margin-top: 50px;
+  margin: auto;
+  width: 50%;
+}
+
+#make {
+  position: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+}
+
+#textarea_field {
+  height: 250px;
+  font-size: 20px;
+}
+
+#name_field {
+  font-size: 20px;
+}
+
+#Submit {
+  margin-left: 10px;
+  width: 100px;
+}
